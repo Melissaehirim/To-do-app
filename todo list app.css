@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+main{
+    background-color: rgb(233, 222, 222);
+    height: 100vh;
+    position: relative;
+    padding-top: 1px;
+}
+.ada{
+    background-color: rgb(173, 98, 243);
+    color: white;
+    height: 50px;
+    width: 380px;
+    padding-left: 10px;
+    margin-left: 530px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.mom{
+    background-color: white;
+    min-height:320px;
+    margin-top: 30px;
+    margin-left: 530px;
+    margin-right: 553px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.dad{
+    height: 45px;
+    background-color: rgb(173, 98, 243);
+    width:160px;
+    border-radius: 20px;
+    margin-left: 640px;
+    position: absolute;
+    margin-top: -25px;
+    gap: 10px;
+    /* padding-left: 30px;
+    padding-top: 10px; */
+    box-sizing: border-box;
+   
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.input{
+    flex-grow: 1;
+    width: 100px;
+    height: 40px;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+    font-size: 20px;
+    
+}
+
+.input:focus{
+    outline: none;
+}
+
+.lola{
+   flex-grow: 1; 
+  
+}
+.ope{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: none;
+ 
+}
+
+#btn{
+    background-color: white;
+    color: black;
+    border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+   font-size: 20px;
+   height: 45px;
+   width: 46px;
+}
+#btn1{
+    width:160px;
+    height: 45px;
+    border-radius: 20px;
+    background-color:rgb(173, 98, 243);
+    color: white;
+    font-size: 20px;
+}
+
+#oll{
+    list-style: none;
+}
+.dde{
+    height: 20px;
+margin-right: 20px;
+color: white;
+width: 45px;
+border: 1px solid ;
+background-color: rgb(173, 98, 243);
+}
+
+.dder{
+    border: none;
+    color: white;
+    background-color: rgb(173, 98, 243);
+    margin-right: 20px;
+    width: 45px;
+    height: 20px;
+}
+.lii{
+display: flex;
+justify-content: space-between;
+}
+.boy{
+    display: flex;
+    gap: 20px;
+}
+.girl{
+    width: 15px;
+  accent-color:rgb(173, 98, 243) ;
+}
